@@ -1,0 +1,68 @@
+.App {
+  margin: 10px;
+}
+
+.card {
+  margin: 5px;
+}
+
+.form {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: lightgray;
+  text-align: center;
+  padding: 1em;
+  border-radius: 200px;
+}
+
+.jumbotron h1 {
+  border-bottom: 1px solid gray;
+}
+
+form {
+  background-color: lightgray;
+  text-align: center;
+  padding: 1em;
+  border-radius: 200px;
+  background-image: url('/maxresdefault.jpg');
+  color: white;
+}
+
+form p {
+  font-size: 2em;
+}
+
+button {
+  background-color: lightblue;
+  font-size: 0.5em;
+}
+
+.vehicleCards {
+  background-color: lightgray;
+  margin: 1em 2em;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.allVehicles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  padding: 0;
+}
+
+.specs {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 1em;
+}
+.specs li {
+  list-style-type: none;
+  font-size: 13px;
+  border-top: 1px solid gray;
+  padding: 0.5em;
+}
